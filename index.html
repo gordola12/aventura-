@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <title>Em busca da cidade perdida</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="img/cenario-passo0.png" alt="">
+            <p>Um dia, enquanto explorava o sótão da minha avó, encontrei um diário antigo. Ele falava sobre uma ilha mágica, cheia de mistérios e criaturas fantásticas. Decidi que precisava descobrir se a ilha realmente existia!</p>
+            <button class="btn-proximo" data-proximo="1">Partir para a Ilha das Maravilhas</button>
+            <button class="btn-proximo" data-proximo="2">Ficar e ler mais sobre a ilha</button>
+        </div>
+        <div class="passo" id="passo-1">
+            <p>Você se prepara para a viagem e embarca em um barco rumo à Ilha das Maravilhas. Após dias de navegação, finalmente avista a ilha ao longe.</p>
+            <button class="btn-proximo" data-proximo="3">Explorar a floresta tropical</button>
+            <button class="btn-proximo" data-proximo="4">Procurar uma vila de habitantes</button>
+        </div>
+        <div class="passo" id="passo-2">
+            <p>Ao ler mais sobre a ilha, você descobre que ela está cheia de lendas e histórias sobre tesouros escondidos. Mas o tempo passa e você decide ir atrás da aventura.</p>
+            <button class="btn-proximo" data-proximo="1">Partir para a Ilha das Maravilhas</button>
+        </div>
+        <div class="passo" id="passo-3">
+            <p>Na floresta, você encontra uma árvore gigante com símbolos misteriosos. Ao examiná-la, descobre que há um portal escondido.</p>
+            <button class="btn-proximo" data-proximo="5">Entrar no portal</button>
+            <button class="btn-proximo" data-proximo="6">Continuar explorando a floresta</button>
+        </div>
+    
+        <div class="passo" id="passo-4">
+            <img src="img/cenario-passo4-vila.png" alt="imagem de uma vila mágica na ilha">
+            <p>Você encontra uma vila encantada, onde os habitantes o recebem calorosamente. Eles compartilham histórias sobre a ilha e oferecem ajuda na sua busca.</p>
+            <button class="btn-proximo" data-proximo="7">Pedir ajuda aos habitantes</button>
+            <button class="btn-proximo" data-proximo="8">Partir sozinho em busca do tesouro</button>
+        </div>
+    
+        <div class="passo" id="passo-5">
+            <p>Ao entrar no portal, você é transportado para um mundo paralelo cheio de cores vibrantes e criaturas mágicas. Você deve encontrar a saída deste mundo.</p>
+            <button class="btn-proximo" data-proximo="9">Explorar o mundo paralelo</button>
+        </div>
+    
+        <div class="passo" id="passo-6">
+            <p>Continuando pela floresta, você encontra uma cachoeira com uma entrada secreta por trás dela.</p>
+            <button class="btn-proximo" data-proximo="10">Entrar na entrada secreta</button>
+        </div>
+    
+        <div class="passo" id="passo-7">
+            <p>Os habitantes da vila fornecem pistas valiosas sobre a localização do tesouro, revelando que ele está escondido em uma caverna mágica.</p>
+            <button class="btn-proximo" data-proximo="11">Seguir para a caverna mágica</button>
+        </div>
+    
+        <div class="passo" id="passo-8">
+            <p>Você parte sozinho, mas logo se perde na floresta. A aventura não sai como planejado e você decide voltar para a vila.</p>
+            <button class="btn-proximo" data-proximo="4">Voltar para a vila</button>
+        </div>
+    
+        <div class="passo" id="passo-9">
+            <p>No mundo paralelo, você encontra um guardião mágico que oferece uma escolha: voltar para a ilha ou explorar mais este mundo fascinante.</p>
+            <button class="btn-proximo" data-proximo="12">Voltar para a ilha</button>
+            <button class="btn-proximo" data-proximo="13">Explorar o mundo paralelo</button>
+        </div>
+    
+        <div class="passo" id="passo-10">
+            <p>Dentro da entrada secreta, você descobre um santuário antigo que contém o segredo da ilha e o caminho para o tesouro.</p>
+            <button class="btn-proximo" data-proximo="14">Descobrir o segredo do santuário</button>
+        </div>
+    
+        <div class="passo" id="passo-11">
+            <img src="img/cenario-passo11-caverna.png" alt="encontrando um tesouro mágico na caverna">
+            <p>Na caverna mágica, você encontra um tesouro deslumbrante e decide usá-lo para proteger a ilha e suas maravilhas.</p>
+        </div>
+    
+        <div class="passo" id="passo-12">
+            <p>Você decide voltar para a ilha e continua sua busca pelo tesouro, agora mais determinado do que nunca.</p>
+            <button class="btn-proximo" data-proximo="1">Partir para a Ilha das Maravilhas</button>
+        </div>
+    
+        <div class="passo" id="passo-13">
+            <p>Explorando o mundo paralelo, você descobre segredos que podem ajudar na sua aventura na ilha.</p>
+            <button class="btn-proximo" data-proximo="14">Retornar para a ilha com novos conhecimentos</button>
+        </div>
+    
+        <div class="passo" id="passo-14">
+            <p>Com o conhecimento adquirido, você retorna à ilha e encontra o tesouro mágico, tornando-se o guardião da Ilha das Maravilhas.</p>
+        </div>
+    </main>
+    
+    <script src="script.js"></script>
+</body>
+</html>
